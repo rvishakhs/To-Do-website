@@ -1,4 +1,4 @@
-*{
+ *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -138,4 +138,9 @@ select{
 #select:hover::after{
     background: white;
     color: #ff6f47;
+}
+
+::placeholder{
+    color:rgb(147, 156, 147);
+    font-size: 1.5rem;
 }
