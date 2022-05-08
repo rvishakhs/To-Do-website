@@ -4,33 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather Finder</title>
     <link rel="stylesheet" href="./style.css">
-    <title>ToDo app</title>
 </head>
 <body>
-    <header>
-        <h1> Todo List</h1>
-    </header>
-    <form>
-        <input type="text" id="todo-input" placeholder="What do you have Planned?"/>
-        <button id="todo-btn" type="submit">
-            <i class="fa-solid fa-circle-plus"></i>
-        </button>
-    <div id="select">
-        <select name="todos" id="filter-todo">
-            <option value="all">All</option> 
-            <option value="completed">Completed</option> 
-            <option value="uncompleted">Uncompleted</option> 
-        </select>
-    </div>    
-    </form>
-    <div class="todo-container">
-        <ul id="todo-list"></ul>
+    <div class="location">
+        <h1 class="Time-Location" id="timezone-location"> Location</h1>
+        <P class="icon" id="timezone-icon">Icon</P>
     </div>
-    <script src="./app.js"></script>
+    <div class="temperature">
+        <div class="degree-section">
+        <h2 class="tempature-degree" id="temp-degree">35</h2>
+        <span>F</span>
+        </div>
+        <p id="temp-des">It's Hot Today!!!</p>
+    </div>
+    <script src ="./app.js"></script>
 </body>
 </html>
