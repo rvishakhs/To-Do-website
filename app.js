@@ -177,4 +177,3 @@ still come to the DOM because we Didn't delete them from local storage  */
     localStorage.setItem("todos", JSON.stringify(todos));
 /*     for saving updated todos into local storage */
     }
-
